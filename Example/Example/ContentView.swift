@@ -22,7 +22,7 @@ struct ContentView: View {
                 
                 translateResult = ""
                 
-                translate(translateText: text, source: "en", target: "zh") { result, error in
+                translate(translateText: text, source: "en", target: "fr") { result, error in
                     print(error)
                     print(result)
                     
